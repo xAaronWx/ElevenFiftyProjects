@@ -1,1 +1,0 @@
-# This Repo is dedicated to coursework for Eleven Fifty Academy.
