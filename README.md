@@ -6,6 +6,6 @@
 ## Repo Contents
 <br/>
 
-* [HTML Basics](#ElevenFiftyProjects/HTMLCSSPreWork/1-HTML-Basics)
+* [HTML Basics](#https://github.com/xAaronWx/ElevenFiftyProjects/tree/master/HTMLCSSPreWork/1-HTML-Basics)
  
-* [CSS Basics](#ElevenFiftyProjects/HTMLCSSPreWork/2-CSS-Basics)
+* [CSS Basics](#https://github.com/xAaronWx/ElevenFiftyProjects/tree/master/HTMLCSSPreWork/2-CSS-Basics)
