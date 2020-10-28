@@ -6,6 +6,6 @@
 ## Repo Contents
 <br/>
 
-* [HTML Basics](#1-HTML-Basics)
+* [HTML Basics](#ElevenFiftyProjects/HTMLCSSPreWork/1-HTML-Basics)
  
-* [CSS Basics](#2-CSS-Basics)
+* [CSS Basics](#ElevenFiftyProjects/HTMLCSSPreWork/2-CSS-Basics)
