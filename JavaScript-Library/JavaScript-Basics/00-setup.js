@@ -1,7 +1,7 @@
 function hi() {
-  'Hello'
+  "Hello";
 }
 
-hi()
+hi();
 
-console.log('Hello')
+console.log("Hello");

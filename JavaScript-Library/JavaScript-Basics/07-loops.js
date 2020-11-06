@@ -1,5 +1,6 @@
 // What if we wanted to print a range of numbers from 1 to 100 by 1s?
-for (let i = 1; i <= 100; i += 1) { // line 1
+for (let i = 1; i <= 100; i += 1) {
+  // line 1
   console.log(i); // line 2
 } // line 3
 
@@ -14,11 +15,10 @@ for (let i = 1; i <= 100; i += 1) { // line 1
 //1        //2    //3
 for (let i = 1; i <= 10; i++) {
   console.log("Number:", i);
-
 }
 // Loop from  0 to 50 by 5s.
 for (let i = 0; i <= 50; i += 5) {
-  console.log('Number- ', i)
+  console.log("Number- ", i);
 }
 
 // Loop from 20 to 1 by -1s.

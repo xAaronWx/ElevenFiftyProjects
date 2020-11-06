@@ -5,14 +5,13 @@ let bobAlcorn = {
   name: "Bob Alcorn",
   age: 59,
   vocation: "Chief Operating Officer",
-  isRetired: false
+  isRetired: false,
 };
 
 // 1 Use the let keyword, create a name and add an equal sign (=).
 // 2 Next, add { }.
 // 3 name, age, vocation, and isRetired are properties or keys of the object. Each has a colon (:) preceding the value.
 // 4 Each of the properties have a value. "Bob Alcorn"   59   "Chief Operating Office"   false.
-
 
 //  The dot . is an operator, like a plus sign. It gives you access to the object's properties and their values. Use the object's name, then the ., then the property name. This accesses the value of the property. Check it out:
 
@@ -34,7 +33,7 @@ console.log(bobAlcorn.age);
 // Add properties named username, power, and toughness.
 // Assign values for each property.
 let player = {
-  username: 'Rodney Crush',
+  username: "Rodney Crush",
   power: 500,
   toughness: 250,
 };

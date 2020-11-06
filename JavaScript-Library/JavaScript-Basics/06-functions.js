@@ -11,8 +11,8 @@ function pacersWon() {
 }
 pacersWon();
 
-pacersWon()
-pacersWon()
+pacersWon();
+pacersWon();
 
 // // Two things to know up front:
 
@@ -36,7 +36,7 @@ numberEntered(1);
 
 numberEntered(40); // Value of 40
 
-// Let's try a function with two params (slang for parameters). The following has a function definition and three calls to the function, each with two numeric arguments. 
+// Let's try a function with two params (slang for parameters). The following has a function definition and three calls to the function, each with two numeric arguments.
 
 function addAnyTwoNumbers(x, y) {
   console.log(x + y);
@@ -50,9 +50,8 @@ function subtractTwoNumbers(firstNum, secondNum) {
   console.log(firstNum - secondNum);
 }
 
-subtractTwoNumbers(5, 7)
-subtractTwoNumbers(2, 7)
-
+subtractTwoNumbers(5, 7);
+subtractTwoNumbers(2, 7);
 
 // Stages follow:
 

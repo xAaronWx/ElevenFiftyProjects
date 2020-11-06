@@ -1,24 +1,28 @@
 ## Introduction
+
 This repo is designated for the use of tutorial and work projects related to Eleven Fifty Academy.
+
 <hr>
 
 ## Contents
+
 <br/>
 
-* [1-HTML-Basics](#1-HTML-Basics)
- 
-* [2-CSS-Basics](#2-CSS-Basics)
+- [1-HTML-Basics](#1-HTML-Basics)
 
-* [3-Assets](#3-assets)
+- [2-CSS-Basics](#2-CSS-Basics)
 
-* [CodePen-Assignments](#CodePen-Assignments)
+- [3-Assets](#3-assets)
 
-* [JavaScript-Library](#JavaScript-Library)
-<br>
+- [CodePen-Assignments](#CodePen-Assignments)
+
+- [JavaScript-Library](#JavaScript-Library)
+  <br>
 
 <hr>
 
 ## 1-HTML-Basics
+
 [HTML-Folder](https://github.com/xAaronWx/ElevenFiftyProjects/tree/master/HTMLCSSPreWork/1-HTML-Basics)
 
 - 00-setup
@@ -39,26 +43,29 @@ This repo is designated for the use of tutorial and work projects related to Ele
 - 14-iframes
 
 ## 2-CSS-Basics
+
 [CSS-Folder](https://github.com/xAaronWx/ElevenFiftyProjects/tree/master/HTMLCSSPreWork/2-CSS-Basics)
 
- - 00-setup / html & css
- - 01-classes / html & css
- - 02-ids / html & css
- - 03-margins-padding / html & css
- - 04-fonts / html & css
- - 05-backgrounds / html & css
- - 06-widths-heights / html & css
- - 07-borders / html & css
- - 08-positions / html & css
+- 00-setup / html & css
+- 01-classes / html & css
+- 02-ids / html & css
+- 03-margins-padding / html & css
+- 04-fonts / html & css
+- 05-backgrounds / html & css
+- 06-widths-heights / html & css
+- 07-borders / html & css
+- 08-positions / html & css
 
- ## 3-Assets
- [Assets-folder](https://github.com/xAaronWx/ElevenFiftyProjects/tree/master/HTMLCSSPreWork/3-assets)
+## 3-Assets
 
-- This folder changes too frequently to update with a list of contents. 
+[Assets-folder](https://github.com/xAaronWx/ElevenFiftyProjects/tree/master/HTMLCSSPreWork/3-assets)
+
+- This folder changes too frequently to update with a list of contents.
 - There are various IMG and GIF assets in here for projects.
 - Honestly, it's a variety of things so click and enjoy whatever you find.
 
 ## CodePen-Assignments
+
 [CodePen-Assignments](https://github.com/xAaronWx/ElevenFiftyProjects/tree/master/HTMLCSSPreWork/Code-Pen-Assignments)
 
 - CSS Checkup Folder
@@ -66,6 +73,7 @@ This repo is designated for the use of tutorial and work projects related to Ele
 - CodePen-Sub
 
 ## JavaScript-Library
+
 [JavaScript-Library](https://github.com/xAaronWx/ElevenFiftyProjects/tree/master/JavaScript-Library)
 
 - 00-setup

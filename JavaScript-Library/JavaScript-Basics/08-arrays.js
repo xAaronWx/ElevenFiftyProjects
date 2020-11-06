@@ -1,8 +1,16 @@
 // An array is a numerically indexed map of values. An array doesn't store one value, it stores a list of values. Arrays allow us to collect items like names, usernames, product names, prices, etc.
 
-let rainbowColors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet'];
+let rainbowColors = [
+  "Red",
+  "Orange",
+  "Yellow",
+  "Green",
+  "Blue",
+  "Indigo",
+  "Violet",
+];
 let raceWinners = [33, 72, 64];
-let myFavoriteThings = ['Broccoli', 46074, 'Zombie Cats From Mars'];
+let myFavoriteThings = ["Broccoli", 46074, "Zombie Cats From Mars"];
 
 // Here are some key points:
 
@@ -21,7 +29,7 @@ console.log(countryArray[2]); //what will print here?
 console.log("Country Array:", countryArray[0]); //And here?
 
 // Create four different arrays, each having four values. Print four of the values:
-var gameConsoles = ['Xbox', 'Playstation', 'Stadia', 'Switch'];
+var gameConsoles = ["Xbox", "Playstation", "Stadia", "Switch"];
 
 // first value of the first array. Remember 0 is the first index!
 console.log(gameConsoles[0]);

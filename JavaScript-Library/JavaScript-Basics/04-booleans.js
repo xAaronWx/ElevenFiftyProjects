@@ -3,7 +3,6 @@ let isAuthenticated = true;
 let hasLoggedInToday = false;
 let hasToken = false;
 
-
 // ==   Equality
 // ===  Strict Equality
 // !=   Inequality
@@ -33,4 +32,4 @@ console.log(10 !== 10);
 
 console.log("&& :", 2 === 2 && 1 === 1); //true because?
 console.log("|| :", 2 === 2 || 2 === 1); //true because?
-console.log("!=", 2 != 1) //true because?
+console.log("!=", 2 != 1); //true because?

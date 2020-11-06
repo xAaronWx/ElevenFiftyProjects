@@ -1,67 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Forms</title>
-</head>
+  <body>
+    <h1>Forms</h1>
 
-<body>
-  <h1>Forms</h1>
+    <h2>Basic form with input field</h2>
 
-  <h2>Basic form with input field</h2>
+    <div class="form-one"></div>
+    <form action="">
+      <p>
+        <label for="">Customer Name: <input type="text" /></label>
+      </p>
+      <p>
+        <label for="">Street Address: <input type="text" /></label>
+      </p>
+      <p>
+        <label for="">City: <input type="text" /></label>
+      </p>
+      <p>
+        <label for="">Area Code: <input type="number" /></label>
+      </p>
+      <p>
+        <label for="">Phone: <input type="number" /></label>
+      </p>
+    </form>
 
-  <div class="form-one"></div>
-  <form action="">
-    <p><label for="">Customer Name: <input type="text"></label></p>
-    <p><label for="">Street Address: <input type="text"></label></p>
-    <p><label for="">City: <input type="text"></label></p>
-    <p><label for="">Area Code: <input type="number"></label></p>
-    <p><label for="">Phone: <input type="number"></label></p>
-  </form>
+    <br />
 
-  <br>
+    <form action="">
+      <fieldset>
+        <legend>Customer Information</legend>
+        <p>
+          <label for="">Customer Name: <input type="text" /></label>
+        </p>
+        <p>
+          <label for="">Phone: <input type="number" /></label>
+        </p>
+        <p>
+          <label for="">Email: <input type="email" /></label>
+        </p>
+      </fieldset>
+    </form>
 
-  <form action="">
+    <br />
+
     <fieldset>
-      <legend>Customer Information</legend>
-      <p><label for="">Customer Name: <input type="text"></label></p>
-      <p><label for="">Phone: <input type="number"></label></p>
-      <p><label for="">Email: <input type="email"></label></p>
+      <legend>Biggest Burritos in the World!</legend>
+      <p>
+        <input type="radio" name="size" id="size0" /><label for="size0"
+          >Humongous</label
+        >
+      </p>
+      <p>
+        <input type="radio" name="size" id="size1" /><label for="size1"
+          >Double-Humongous</label
+        >
+      </p>
+      <p>
+        <input type="radio" name="size" id="size2" /><label for="size2"
+          >Triple-Humongous</label
+        >
+      </p>
+      <p>
+        <input type="radio" name="size" id="size3" /><label for="size3"
+          >Just a small, please</label
+        >
+      </p>
     </fieldset>
-  </form>
 
-  <br>
+    <br />
 
-  <fieldset>
-    <legend>Biggest Burritos in the World!</legend>
-    <p><input type="radio" name="size" id="size0"><label for="size0">Humongous</label></p>
-    <p><input type="radio" name="size" id="size1"><label for="size1">Double-Humongous</label></p>
-    <p><input type="radio" name="size" id="size2"><label for="size2">Triple-Humongous</label></p>
-    <p><input type="radio" name="size" id="size3"><label for="size3">Just a small, please</label></p>
-  </fieldset>
+    <fieldset>
+      <legend>Fixins</legend>
+      <p>
+        <input type="checkbox" name="fixins" id="onions" /><label for="onions"
+          >Sautéed Onions</label
+        >
+      </p>
+      <p>
+        <input type="checkbox" name="fixins" id="guacamole" /><label
+          for="guacamole"
+          >Guacamole</label
+        >
+      </p>
+      <p>
+        <input type="checkbox" name="fixins" id="queso" /><label for="queso"
+          >Queso</label
+        >
+      </p>
+      <p>
+        <input type="checkbox" name="fixins" id="lettuce" /><label for="lettuce"
+          >Lettuce</label
+        >
+      </p>
+      <p>
+        <input type="checkbox" name="fixins" id="beans" /><label for="beans"
+          >Beans</label
+        >
+      </p>
+      <p>
+        <input type="checkbox" name="fixins" id="rice" /><label for="rice"
+          >Rice</label
+        >
+      </p>
+    </fieldset>
 
-  <br>
+    <br />
 
-  <fieldset>
-    <legend>Fixins</legend>
-    <p><input type="checkbox" name="fixins" id="onions"><label for="onions">Sautéed Onions</label></p>
-    <p><input type="checkbox" name="fixins" id="guacamole"><label for="guacamole">Guacamole</label></p>
-    <p><input type="checkbox" name="fixins" id="queso"><label for="queso">Queso</label></p>
-    <p><input type="checkbox" name="fixins" id="lettuce"><label for="lettuce">Lettuce</label></p>
-    <p><input type="checkbox" name="fixins" id="beans"><label for="beans">Beans</label></p>
-    <p><input type="checkbox" name="fixins" id="rice"><label for="rice">Rice</label></p>
-  </fieldset>
-
-  <br>
-
-  <fieldset>
-    <p>Preferred Delivery Time: <input type="time"></p>
-    <p>Delivery Instructions: <textarea name="" id="" cols="" rows=""></textarea></p>
-    <p><button>Submit Order</button></p>
-  </fieldset>
-
-</body>
-
+    <fieldset>
+      <p>Preferred Delivery Time: <input type="time" /></p>
+      <p>
+        Delivery Instructions:
+        <textarea name="" id="" cols="" rows=""></textarea>
+      </p>
+      <p><button>Submit Order</button></p>
+    </fieldset>
+  </body>
 </html>

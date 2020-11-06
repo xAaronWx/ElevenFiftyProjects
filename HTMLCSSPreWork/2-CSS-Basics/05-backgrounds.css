@@ -15,7 +15,11 @@ body {
 
 /* 4  */
 .background1 {
-  background-image: linear-gradient(to left, rgb(60, 129, 175), rgb(150, 48, 95));
+  background-image: linear-gradient(
+    to left,
+    rgb(60, 129, 175),
+    rgb(150, 48, 95)
+  );
 }
 
 /* 5  */

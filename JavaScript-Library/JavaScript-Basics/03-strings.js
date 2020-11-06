@@ -4,8 +4,9 @@ console.log("I like Indiana the best.");
 console.log("My bank account had two million bucks in it. It's gone now.");
 
 var tweet = "Lebron is king! Westbrook for president!";
-let facebookPost = "Just thought I'd share this goofy video of my dog eating our couch.";
-const username = 'jamespauloconnor';
+let facebookPost =
+  "Just thought I'd share this goofy video of my dog eating our couch.";
+const username = "jamespauloconnor";
 
 // You can use numbers in a string, but you won't be able to do math. Numbers in quotes are actually text.
 
@@ -20,7 +21,7 @@ var birthState = "Texas";
 
 console.log(birthCity + ", " + birthState);
 
-// We can mix strings and numbers together. When you do this, JavaScript turns numbers into strings. This is known as coercion. 
+// We can mix strings and numbers together. When you do this, JavaScript turns numbers into strings. This is known as coercion.
 
 let ageInAugust = 40;
 let highSchool = "Bill Murray High School";
