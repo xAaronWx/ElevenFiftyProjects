@@ -18,7 +18,7 @@ This repo is designated for the use of tutorial and work projects related to Ele
 
 - [JavaScript-Library](#JavaScript-Library)
 
-- [Music-Blog](#Music-Blog)
+- [Class-Projects](#Class-Projects)
   <br>
 
 <hr>
@@ -70,9 +70,10 @@ This repo is designated for the use of tutorial and work projects related to Ele
 
 [CodePen-Assignments](https://github.com/xAaronWx/ElevenFiftyProjects/tree/master/HTMLCSSPreWork/Code-Pen-Assignments)
 
-- CSS Checkup Folder
+- CSS Checkup Project
 - CodePen-html
 - CodePen-Sub
+- CodePen-JS
 
 ## JavaScript-Library
 
@@ -89,10 +90,9 @@ This repo is designated for the use of tutorial and work projects related to Ele
 - 08-arrays
 - 09-objects
 
-## Music Blog
+## Class-Projects
 
-[Music-Blog]()
+[Class-Projects]()
 
-- assets Folder
-- index.html
-- style.css
+- Music-Blog Project
+- Smiley-Face Project
