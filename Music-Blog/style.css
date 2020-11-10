@@ -1,0 +1,141 @@
+/* GENERAL SETUP */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+  /* background-color: #a9a9a9; */
+  background: linear-gradient(
+    133deg,
+    rgb(246, 94, 252) 0%,
+    rgb(99, 255, 255) 50%,
+    rgb(60, 93, 202) 100%
+  );
+}
+
+body {
+  width: 80vw;
+  min-width: 800px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+/* TYPOGRAPHY */
+
+h1,
+h2 {
+  font-family: "Raleway", sans-serif;
+  color: #2a2a2a;
+}
+
+p,
+input,
+li {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #2a2a2a;
+}
+
+h1 {
+  /* REMs are a way of setting font-sizes based on the font-size of the root HTML element. They also allow you to quickly scale an entire project by changing the root font-size */
+  font-size: 4rem;
+  text-align: center;
+  text-shadow: 2px 2px 10px black;
+}
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+p,
+li {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+/* HEADER LAYOUT */
+
+header {
+  margin-bottom: 10px;
+}
+
+main,
+header,
+nav,
+article,
+aside,
+footer,
+section {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 1%;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+nav {
+  height: 50px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  list-style-type: none;
+  text-align: center;
+  /* 
+        The flex property is a shorthand property for the flex-grow, flex-shrink, and flex-basis properties. 
+            - The flex-grow property specifies how much the item will grow relative to the rest of the flexible items inside the same container.
+            - The flex-shrink property specifies how the item will shrink relative to the rest of the flexible items inside the same container.
+            - The flex-basis property specifies the initial length of a flexible item.
+    */
+  flex: 1;
+  /* nav li will take up 100% of the viewport */
+}
+
+nav a,
+nav span {
+  font-size: 2rem;
+  height: 3rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+/* MAIN LAYOUT */
+
+main {
+  display: flex;
+}
+
+section,
+article {
+  flex: 4;
+  /* section and article will take up 80% of the viewport (4/(4+1)) */
+}
+
+aside {
+  flex: 1;
+  /* aside will take up 20% of the viewport (1/(1+4)) */
+  margin-left: 10px;
+  padding: 1%;
+}
+
+aside a {
+  float: left;
+  width: 50%;
+}
+
+aside img {
+  max-width: 100%;
+}
+
+footer {
+  margin-top: 10px;
+}

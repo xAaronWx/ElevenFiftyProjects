@@ -17,6 +17,8 @@ This repo is designated for the use of tutorial and work projects related to Ele
 - [CodePen-Assignments](#CodePen-Assignments)
 
 - [JavaScript-Library](#JavaScript-Library)
+
+- [Music-Blog](#Music-Blog)
   <br>
 
 <hr>
@@ -86,3 +88,11 @@ This repo is designated for the use of tutorial and work projects related to Ele
 - 07-loops
 - 08-arrays
 - 09-objects
+
+## Music Blog
+
+[Music-Blog]()
+
+- assets Folder
+- index.html
+- style.css
