@@ -1,6 +1,6 @@
 ## Introduction
 
-This repo is designated for the use of tutorial and work projects related to Eleven Fifty Academy.
+This repo is designated for the use of tutorial and work projects related to Eleven Fifty Academy (EFA).
 
 <hr>
 
@@ -19,6 +19,8 @@ This repo is designated for the use of tutorial and work projects related to Ele
 - [JavaScript-Library](#JavaScript-Library)
 
 - [Class-Projects](#Class-Projects)
+
+- [Class-Projects / Challenges](#Class-Projects/Challenges)
   <br>
 
 <hr>
@@ -96,3 +98,12 @@ This repo is designated for the use of tutorial and work projects related to Ele
 
 - Music-Blog Project
 - Smiley-Face Project
+
+<hr>
+### Class-Projects/Challenges
+
+[Challenges]()
+
+- This folder has various mini challenges tasked by EFA
+
+- 2-truths-1-lie
