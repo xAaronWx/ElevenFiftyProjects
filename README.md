@@ -94,7 +94,7 @@ This repo is designated for the use of tutorial and work projects related to Ele
 
 ## Class-Projects
 
-[Class-Projects]()
+[Class-Projects](https://github.com/xAaronWx/ElevenFiftyProjects/tree/master/Class-Projects)
 
 - Music-Blog Project
 - Smiley-Face Project
