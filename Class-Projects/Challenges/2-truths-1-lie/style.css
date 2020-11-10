@@ -11,8 +11,7 @@ p {
   color: red;
 }
 
-div {
-  float: left;
+#wrapper {
   padding: 10px;
   border: solid 4px black;
   border-radius: 30px;
@@ -26,4 +25,9 @@ div {
   background-color: lightgrey;
   border-radius: 20px;
   border: solid 1px black;
+}
+
+#align {
+  display: flex;
+  justify-content: space-evenly;
 }
