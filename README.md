@@ -102,7 +102,7 @@ This repo is designated for the use of tutorial and work projects related to Ele
 <hr>
 ### Class-Projects/Challenges
 
-[Challenges]()
+[Challenges](https://github.com/xAaronWx/ElevenFiftyProjects/tree/master/Class-Projects/Challenges)
 
 - This folder has various mini challenges tasked by EFA
 
