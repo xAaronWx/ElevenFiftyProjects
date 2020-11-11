@@ -20,7 +20,7 @@ This repo is designated for the use of tutorial and work projects related to Ele
 
 - [Class-Projects](#Class-Projects)
 
-- [Class-Projects / Challenges](#Class-Projects/Challenges)
+- [Class-Projects-Challenges](#Class-Projects-Challenges)
   <br>
 
 <hr>
@@ -96,14 +96,14 @@ This repo is designated for the use of tutorial and work projects related to Ele
 
 [Class-Projects](https://github.com/xAaronWx/ElevenFiftyProjects/tree/master/Class-Projects)
 
+- Challenges Folders
 - Music-Blog Project
-- Smiley-Face Project
 
-<hr>
-### Class-Projects/Challenges
+## Class-Projects-Challenges
 
 [Challenges](https://github.com/xAaronWx/ElevenFiftyProjects/tree/master/Class-Projects/Challenges)
 
 - This folder has various mini challenges tasked by EFA
 
-- 2-truths-1-lie
+- WeekOne
+- WeekTwo
