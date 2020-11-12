@@ -1,0 +1,103 @@
+.wrapper {
+  margin: 10%;
+}
+
+.mainBody {
+  width: 200px;
+  height: 150px;
+  border: solid 1px black;
+  background-color: black;
+  border-radius: 0px 100px 100px 0px;
+  position: relative;
+  top: 10px;
+  left: 150px;
+}
+
+.centerBody {
+  width: 10px;
+  height: 120px;
+  border: solid 1px black;
+  background-color: grey;
+  position: relative;
+  top: -125px;
+  left: 140px;
+}
+
+.backBody {
+  width: 30px;
+  height: 150px;
+  border: solid 1px black;
+  background-color: black;
+  position: relative;
+  top: -264px;
+  left: 110px;
+}
+
+.eye {
+  width: 40px;
+  height: 25px;
+  border: solid 1px white;
+  background-color: white;
+  position: relative;
+  top: -375px;
+  left: 275px;
+  border-radius: 0 0 15px 15px;
+  transform: rotate(20deg);
+}
+
+#pupil {
+  width: 15px;
+  height: 15px;
+  background-color: black;
+  border-radius: 30px;
+  position: relative;
+  left: 25px;
+}
+
+.mouth {
+  width: 100px;
+  height: 30px;
+  border: solid 1px rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  top: -346px;
+  left: 225px;
+  border-radius: 5px 5px 150px 200px;
+  transform: rotate(21deg);
+}
+
+#tooth1 {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 40px 20px 0px 20px;
+  border-color: #000000 transparent transparent transparent;
+  border-radius: 40px;
+  position: relative;
+  top: -25px;
+  left: 10px;
+}
+
+#tooth2 {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 40px 20px 0px 20px;
+  border-color: #000000 transparent transparent transparent;
+  border-radius: 40px;
+  position: relative;
+  top: -65px;
+  left: 55px;
+}
+
+.shadow {
+  width: 200px;
+  height: 10px;
+  border: solid 1px burlywood;
+  background-color: rgb(51, 45, 40);
+  opacity: 0.3;
+  border-radius: 200px 300px;
+  position: relative;
+  top: -250px;
+  left: 115px;
+}
