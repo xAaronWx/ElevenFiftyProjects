@@ -34,6 +34,17 @@
   background-color: black;
 }
 
+#tongue {
+  width: 10px;
+  height: 2px;
+  border: solid 1px pink;
+  border-radius: 3px;
+  position: relative;
+  background-color: pink;
+  top: 6px;
+  left: 8px;
+}
+
 .mouth {
   width: 30px;
   height: 10px;
@@ -44,4 +55,26 @@
   top: 1em;
   left: 1em;
   background-color: black;
+}
+
+#inner-left {
+  width: 2px;
+  height: 2px;
+  border: solid 1px white;
+  border-radius: 2px;
+  position: relative;
+  left: 2px;
+  top: 2px;
+  background-color: white;
+}
+
+#inner-right {
+  width: 2px;
+  height: 2px;
+  border: solid 1px white;
+  border-radius: 2px;
+  position: relative;
+  left: 2px;
+  top: 2px;
+  background-color: white;
 }
