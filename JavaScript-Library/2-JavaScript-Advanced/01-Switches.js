@@ -30,3 +30,19 @@ switch (typeof yep == "string" || typeof yep == "boolean") {
     console.log("Yep is not a string or number");
     break;
 }
+
+let num = 25;
+
+switch (true) {
+  case num % 3 === 0 && num % 5 === 0:
+    console.log("Fizz Buzz");
+    break;
+  case num % 3 === 0:
+    console.log("Fizz");
+    break;
+  case num % 5 === 0:
+    console.log("Buzz");
+    break;
+  default:
+    console.log(num);
+}
