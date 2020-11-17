@@ -26,3 +26,11 @@ console.log(animals(2, 7));
 //Concise method
 let apples = (x) => `There are ${x} apples.`;
 console.log(apples(3));
+
+//Block body variable
+let bananas = (x) => {
+  return `There are ${x} bananas.`;
+};
+console.log(bananas(10));
+
+//Return must be explicity written in a block -body arrow function
