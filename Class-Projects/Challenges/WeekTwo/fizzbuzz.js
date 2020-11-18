@@ -33,6 +33,8 @@ function FB() {
 // }
 FB();
 
+// SILVER
+
 let num = 45;
 
 switch (true) {
@@ -49,9 +51,11 @@ switch (true) {
     console.log(num);
 }
 
+// GOLD
+
 let digit = 37;
 
-digit % 3 === 0 && digit % 5 === 0
+digit % 15 === 0
   ? console.log("Fizz Buzz")
   : digit % 3 === 0
   ? console.log("Fizz")

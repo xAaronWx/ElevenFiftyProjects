@@ -81,6 +81,8 @@ This repo is designated for the use of tutorial and work projects related to Ele
 
 [JavaScript-Library](https://github.com/xAaronWx/ElevenFiftyProjects/tree/master/JavaScript-Library)
 
+### JavaScript-Basics Folder
+
 - 00-setup
 - 01-number
 - 02-variables
@@ -91,6 +93,8 @@ This repo is designated for the use of tutorial and work projects related to Ele
 - 07-loops
 - 08-arrays
 - 09-objects
+
+-JavaScript-Advanced Folder
 
 ## Class-Projects
 

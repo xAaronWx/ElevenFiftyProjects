@@ -20,7 +20,7 @@ for (let i = 0; i <= 10; i++) {
 }
 
 // loops can run infinitely
-// if you create an infinite loop you have to force close the process or close VS code
+// if you create an infinite loop you have to force kill the process or close VS code
 
 // counts to -25 by -3, starting from 2
 for (let i = 2; i >= -25; i += -3) {

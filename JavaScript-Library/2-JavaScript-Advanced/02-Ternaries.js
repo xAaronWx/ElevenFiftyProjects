@@ -28,3 +28,14 @@ greeting.length > 10
   : greeting.length == 10
   ? console.log("Your greeting is exactly 10 characters.")
   : console.log("What a normal greeting.");
+
+// Even does numbers
+let digit = 37;
+
+digit % 3 === 0 && digit % 5 === 0
+  ? console.log("Fizz Buzz")
+  : digit % 3 === 0
+  ? console.log("Fizz")
+  : digit % 5 === 0
+  ? console.log("Buzz")
+  : console.log(digit);
