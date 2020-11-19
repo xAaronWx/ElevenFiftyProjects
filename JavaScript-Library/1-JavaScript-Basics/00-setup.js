@@ -5,3 +5,5 @@ function hi() {
 hi();
 
 console.log("Hello");
+
+// Add a setup step maybe
