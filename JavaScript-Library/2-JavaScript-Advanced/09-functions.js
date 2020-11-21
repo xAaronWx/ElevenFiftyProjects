@@ -97,3 +97,38 @@ function calculator(one, two, three) {
 
 let averageWeight = calculator(15, 60, 55);
 console.log(averageWeight);
+
+// PRACTICE I
+// Write a function that takes two parameters  (Length and Width) that returns
+// the area of the rectangle.
+// Create a variable named area1 and area2 that will call the Function and store its return
+// console log the variables
+// Example :  4 by 8 rectangle will give  32;
+
+function areaCalc(length, width) {
+  let area = length * width;
+  return area;
+}
+
+let area1 = areaCalc(5, 2);
+let area2 = areaCalc(10, 2);
+console.log(area1);
+console.log(area2);
+
+// Practice II
+
+// Write a function that will convert dog years to human years
+// Formula for conversion  - Human Age = (Dog Age -2) x 4 + 21
+
+function dogToHumanYrs(dogYrs) {
+  let humanAge = (dogYrs - 2) * 4 + 21;
+  return humanAge;
+}
+console.log(dogToHumanYrs(5));
+
+// OR
+
+function dogToHumanYrs(dogYrs) {
+  return (dogYrs - 2) * 4 + 21;
+}
+console.log(dogToHumanYrs(5));

@@ -63,3 +63,27 @@ function scope() {
 }
 scope();
 console.log(x); //12
+
+// Examples
+
+var coffeeType = "dark roast"; // Global scope
+
+function exampleFunction() {
+  var coffeeType = "vanilla roast"; // Local scope (INSIDE the function)
+  console.log(coffeeType);
+}
+exampleFunction();
+
+// Complex setup
+let x = "Aj";
+
+function scope() {
+  let x = "world";
+  if (true == true) {
+    let x = "hello";
+    console.log("From if statement", x);
+  }
+  console.log("From function", x);
+}
+scope();
+console.log("From outside function", x);

@@ -14,3 +14,17 @@ function hoistTest(params) {
   console.log(testVar);
 }
 hoistTest();
+
+//  EXAMPLES
+
+goodbye(); // Functions get hoisted
+var hello = "hello"; // Var's get hoisted
+
+console.log(hello);
+
+function goodbye() {
+  console.log("goodbye");
+}
+
+console.log(name);
+let name = "Aj";
