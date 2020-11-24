@@ -1,8 +1,7 @@
-// An array has square brackets and can hold multiple data types
-// arrays can list data types in an ordered, numbered way
-
 /*
 // Array methods
+// An array has square brackets and can hold multiple data types
+// arrays can list data types in an ordered, numbered way
 
 
     -Arrays are used to store multiple values in a single variable
@@ -161,9 +160,7 @@ food.forEach((food, index) => {
 });
 
 // Array.push()
-
 let movies = ["Brave", "Snow White", "Tangled", "Wall-E", "Bugs Life"];
-
 movies.push("Cocoa");
 // Array.splice()
 movies.splice(4, 1, "Robin Hood");
@@ -171,7 +168,7 @@ movies.splice(4, 1, "Robin Hood");
 movies.forEach((movie) => console.log(movie));
 console.log(movies.length);
 
-// // Do the following with an array
+// Do the following with an array
 // - check if working with an array
 // - flip the values within the array (Item in index 4 is now in 0, 3 is now in 1)
 // - using a method only, print the values of the new array
