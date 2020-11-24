@@ -4,7 +4,7 @@ This repo is designated for the use of tutorial and work projects related to Ele
 
 <hr>
 
-### Contents:
+### `Contents:`
 
 <br/>
 
@@ -24,15 +24,15 @@ This repo is designated for the use of tutorial and work projects related to Ele
 
 <hr>
 
-# Class-Projects
+# `Class-Projects:`
 
 [Class-Projects](https://github.com/xAaronWx/ElevenFiftyProjects/tree/master/Class-Projects)
 
-## (Challenges)
+## `(Challenges)`
 
 This folder has various mini challenges and tasks for EFA
 
-### 01-Week
+### `01-Week`
 
 - 2 truths 1 lie
 - conditionals
@@ -40,25 +40,25 @@ This folder has various mini challenges and tasks for EFA
 - Login-Form
 - Smiley-Face
 
-### 02-Week
+### `02-Week`
 
 - fizzbuzz
 - forOfLoop
 - loops
 
-### 03-Week
+### `03-Week`
 
 - fizzbuzz_2_0
 
-## (Music-Blog)
+## `(Music-Blog)`
 
-## (Portfolio)
+## `(Portfolio)`
 
 <br>
 
-# HTML_CSS_PreWork
+# `HTML_CSS_PreWork:`
 
-## 1-HTML-Basics
+## `1-HTML-Basics`
 
 [HTML-Folder](https://github.com/xAaronWx/ElevenFiftyProjects/tree/master/HTMLCSSPreWork/1-HTML-Basics)
 
@@ -79,7 +79,7 @@ This folder has various mini challenges and tasks for EFA
 - 13-navs
 - 14-iframes
 
-## 2-CSS-Basics
+## `2-CSS-Basics`
 
 [CSS-Folder](https://github.com/xAaronWx/ElevenFiftyProjects/tree/master/HTMLCSSPreWork/2-CSS-Basics)
 
@@ -93,7 +93,7 @@ This folder has various mini challenges and tasks for EFA
 - 07-borders / html & css
 - 08-positions / html & css
 
-## 3-Assets
+## `3-Assets`
 
 [Assets-folder](https://github.com/xAaronWx/ElevenFiftyProjects/tree/master/HTMLCSSPreWork/3-assets)
 
@@ -101,11 +101,11 @@ This folder has various mini challenges and tasks for EFA
 - There are various IMG and GIF assets in here for projects.
 - Honestly, it's a variety of things so click and enjoy whatever you find.
 
-## CodePen-Assignments
+## `CodePen-Assignments`
 
 [CodePen-Assignments](https://github.com/xAaronWx/ElevenFiftyProjects/tree/master/HTMLCSSPreWork/Code-Pen-Assignments)
 
-### CSS Checkup Project
+### `CSS Checkup Project`
 
 - CodePen-html
 - CodePen-JS
@@ -114,11 +114,11 @@ This folder has various mini challenges and tasks for EFA
 
 <br>
 
-# JavaScript-Library
+# `JavaScript-Library:`
 
 [JavaScript-Library](https://github.com/xAaronWx/ElevenFiftyProjects/tree/master/JavaScript-Library)
 
-## 1-JavaScript-Basics
+## `1-JavaScript-Basics`
 
 - 00-setup
 - 01-number
@@ -131,7 +131,7 @@ This folder has various mini challenges and tasks for EFA
 - 08-arrays
 - 09-objects
 
-## 2-JavaScript-Advanced
+## `2-JavaScript-Advanced`
 
 - 01-switches
 - 02-ternaries
