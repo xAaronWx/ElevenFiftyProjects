@@ -11,13 +11,12 @@
     
     Gold: Convert to a TERNARY
     Resources: https://www.w3schools.com/js/js_arithmetic.asp
-               https://dj1hlxw0wr920.cloudfront.net/userfiles/wyzfiles/b410fcc6-7a7b-45a0-81b9-354423866db9.gif
+    https://dj1hlxw0wr920.cloudfront.net/userfiles/wyzfiles/b410fcc6-7a7b-45a0-81b9-354423866db9.gif
 */
 
 var count = 40;
 
 function FB() {
-  // while (count <= 100) {
   if (count % 3 === 0 && count % 5 === 0) {
     console.log("FizzBuzz");
   } else if (count % 3 === 0) {
@@ -27,10 +26,7 @@ function FB() {
   } else {
     console.log(count);
   }
-
-  // count++
 }
-// }
 FB();
 
 // SILVER

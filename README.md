@@ -8,6 +8,8 @@ This repo is designated for the use of tutorial and work projects related to Ele
 
 <br/>
 
+- [Class-Projects](#Class-Projects)
+
 - [1-HTML-Basics](#1-HTML-Basics)
 
 - [2-CSS-Basics](#2-CSS-Basics)
@@ -18,12 +20,43 @@ This repo is designated for the use of tutorial and work projects related to Ele
 
 - [JavaScript-Library](#JavaScript-Library)
 
-- [Class-Projects](#Class-Projects)
-
-- [Class-Projects-Challenges](#Class-Projects-Challenges)
   <br>
 
 <hr>
+
+# Class-Projects
+
+[Class-Projects](https://github.com/xAaronWx/ElevenFiftyProjects/tree/master/Class-Projects)
+
+## (Challenges)
+
+This folder has various mini challenges and tasks for EFA
+
+### 01-Week
+
+- 2 truths 1 lie
+- conditionals
+- CSS-Monster
+- Login-Form
+- Smiley-Face
+
+### 02-Week
+
+- fizzbuzz
+- forOfLoop
+- loops
+
+### 03-Week
+
+- fizzbuzz_2_0
+
+## (Music-Blog)
+
+## (Portfolio)
+
+<br>
+
+# HTML_CSS_PreWork
 
 ## 1-HTML-Basics
 
@@ -72,16 +105,20 @@ This repo is designated for the use of tutorial and work projects related to Ele
 
 [CodePen-Assignments](https://github.com/xAaronWx/ElevenFiftyProjects/tree/master/HTMLCSSPreWork/Code-Pen-Assignments)
 
-- CSS Checkup Project
-- CodePen-html
-- CodePen-Sub
-- CodePen-JS
+### CSS Checkup Project
 
-## JavaScript-Library
+- CodePen-html
+- CodePen-JS
+- CodePen-Sub
+- Pong Game
+
+<br>
+
+# JavaScript-Library
 
 [JavaScript-Library](https://github.com/xAaronWx/ElevenFiftyProjects/tree/master/JavaScript-Library)
 
-### JavaScript-Basics Folder
+## 1-JavaScript-Basics
 
 - 00-setup
 - 01-number
@@ -94,20 +131,17 @@ This repo is designated for the use of tutorial and work projects related to Ele
 - 08-arrays
 - 09-objects
 
--JavaScript-Advanced Folder
+## 2-JavaScript-Advanced
 
-## Class-Projects
-
-[Class-Projects](https://github.com/xAaronWx/ElevenFiftyProjects/tree/master/Class-Projects)
-
-- Challenges Folders
-- Music-Blog Project
-
-## Class-Projects-Challenges
-
-[Challenges](https://github.com/xAaronWx/ElevenFiftyProjects/tree/master/Class-Projects/Challenges)
-
-- This folder has various mini challenges tasked by EFA
-
-- WeekOne
-- WeekTwo
+- 01-switches
+- 02-ternaries
+- 03-forLoops
+- 04-forInLoops
+- 05-forOfLoops
+- 06-scope
+- 07-hoists
+- 08-literals
+- 09-functions
+- 10-arrowFunctions
+- 11-arrays
+- 12-objects
