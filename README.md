@@ -1,10 +1,10 @@
-## Introduction
+# Introduction
 
 This repo is designated for the use of tutorial and work projects related to Eleven Fifty Academy (EFA).
 
 <hr>
 
-## Contents
+### Contents:
 
 <br/>
 
