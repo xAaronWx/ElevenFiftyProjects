@@ -12,6 +12,16 @@ let group1 = {
     carsOwned: [{ make: "Jeep", model: "Wrangler" }],
     favoritePotato: "Sweet Potato",
   },
+  Angie: {
+    name: "Angie Cunningham",
+    age: 33,
+    graduatedHSYear: 2205,
+    pets: true,
+    petNames: ["Frank", "Roxy", "Loki"],
+    recentMovieWatched: "Nine",
+    carsOwned: [{ make: "Ford", model: "Crown Victoria" }],
+    favoritePotato: "All of them",
+  },
   Amy: {
     name: "Amy Melangton",
     age: 41,
@@ -48,7 +58,8 @@ console.log(
   group1.Aj.recentMovieWatched,
   group1.Amy.recentMovieWatched,
   group1.Doug.recentMovieWatched,
-  group1.Ryan.recentMovieWatched
+  group1.Ryan.recentMovieWatched,
+  group1.Angie.recentMovieWatched
 );
 
 // Create new array and push recentMovieWatched to the array
@@ -59,7 +70,8 @@ console.log(
     group1.Aj.recentMovieWatched,
     group1.Amy.recentMovieWatched,
     group1.Doug.recentMovieWatched,
-    group1.Ryan.recentMovieWatched
+    group1.Ryan.recentMovieWatched,
+    group1.Angie.recentMovieWatched
   )
 );
 
