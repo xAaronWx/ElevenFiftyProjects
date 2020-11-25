@@ -15,6 +15,7 @@
   </head>
 
   <body>
+    <!-- Challenge 1 -->
     <div class="challenge1">
       <h1>Challenge 1</h1>
       <p>
@@ -30,6 +31,7 @@
       </button>
     </div>
 
+    <!-- Challenge 2 -->
     <div class="challenge2">
       <h1>Challenge 2</h1>
       <p>
@@ -74,21 +76,83 @@
       </div>
     </div>
 
-    <h1>Challenge 3</h1>
-    <p>
-      Add 3 cards. Add an image of your favorite TV show to card 1. Card 2
-      should include a list of your favorite characters from the TV show and the
-      text should be centered. Card 3 can be the same as the first card, but
-      should have a different background color and text color.
-    </p>
-    <p>
-      <strong>BONUS:</strong> Align all 3 cards in a single row using
-      Bootstrap's grid system.
-    </p>
-    <a href="https://getbootstrap.com/docs/4.3/layout/grid/"
-      >Click here for more info on grid</a
-    >
-
+    <!-- Challenge 3 -->
+    <div class="challenge3">
+      <h1>Challenge 3</h1>
+      <p>
+        Add 3 cards. Add an image of your favorite TV show to card 1. Card 2
+        should include a list of your favorite characters from the TV show and
+        the text should be centered. Card 3 can be the same as the first card,
+        but should have a different background color and text color.
+      </p>
+      <p>
+        <strong>BONUS:</strong> Align all 3 cards in a single row using
+        Bootstrap's grid system.
+      </p>
+      <a href="https://getbootstrap.com/docs/4.3/layout/grid/"
+        >Click here for more info on grid</a
+      >
+      <div class="card-group">
+        <div class="card">
+          <img
+            src="https://www.awn.com/sites/default/files/styles/original/public/image/featured/1033274-futurama-worlds-tomorrow-launches-today.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Futurama</h5>
+            <p class="card-text">
+              Futurama is an American animated science fiction television series
+              created by Matt Groening that aired on Fox from March 28, 1999 to
+              August 10, 2003 and on Comedy Central from March 23, 2008 to
+              September 4, 2013.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">This will never update</small>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://www.tvweek.com/wp-content/uploads/2014/12/parks-and-recreation-title.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Parks and Recreation</h5>
+            <p class="card-text">
+              Parks and Recreation is an American political satire mockumentary
+              sitcom television series created by Greg Daniels and Michael
+              Schur. The series aired on NBC from April 9, 2009, to February 24,
+              2015, for 125 episodes, over seven seasons.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">This will never update</small>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://testfanspeak.files.wordpress.com/2016/01/the-office.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">The Office</h5>
+            <p class="card-text">
+              The Office is an American mockumentary sitcom television series
+              that depicts the everyday work lives of office employees in the
+              Scranton, Pennsylvania branch of the fictional Dunder Mifflin
+              Paper Company.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">This will never update</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Challenge 4 -->
     <h1>Challenge 4</h1>
     <p>
       Add a collapsible accordion that shows a picture of each of your favorite
@@ -98,6 +162,207 @@
       <strong>BONUS:</strong> Images should fill the entire accordion, and the
       accordion should take up 8 grids and be centered.
     </p>
+    <!--Accordion wrapper-->
+    <div
+      class="accordion md-accordion accordion-1"
+      id="accordionEx23"
+      role="tablist"
+    >
+      <div class="card">
+        <div
+          class="card-header blue lighten-3 z-depth-1"
+          role="tab"
+          id="heading96"
+        >
+          <h5 class="text-uppercase mb-0 py-1">
+            <a
+              class="white-text font-weight-bold"
+              data-toggle="collapse"
+              href="#collapse96"
+              aria-expanded="true"
+              aria-controls="collapse96"
+            >
+              Philip Jay Fry
+            </a>
+          </h5>
+        </div>
+        <div
+          id="collapse96"
+          class="collapse show"
+          role="tabpanel"
+          aria-labelledby="heading96"
+          data-parent="#accordionEx23"
+        >
+          <div class="card-body">
+            <div class="row my-4">
+              <div class="col-md-8">
+                <h2 class="font-weight-bold mb-3 black-text">Philip Jay Fry</h2>
+                <p class="">
+                  commonly known simply by his surname Fry, is a fictional
+                  character and the protagonist of the animated sitcom Futurama.
+                  He is voiced by Billy West using a version of his own voice as
+                  he sounded when he was 25.[1][2] He is a slacker delivery boy
+                  from the 20th century who becomes cryogenically frozen and
+                  reawakens in the 30th century to become a delivery boy there
+                  with an intergalactic delivery company run by his 30th great
+                  grandnephew (31st great grandson; via time warp), Professor
+                  Hubert J. Farnsworth. He is the best friend and roommate of
+                  Bender and the boyfriend and later husband of Turanga Leela.
+                  He is the father of Yancy Fry, Sr. (due to an affair with his
+                  soon-to-be paternal grandmother) and the stepfather of Kif's
+                  offspring (due to Kif's pregnancy and Leela's accidental
+                  motherhood).
+                </p>
+                <p class="mb-0"></p>
+              </div>
+
+              <div class="col-md-4 mt-3 pt-2">
+                <div class="view z-depth-1">
+                  <img
+                    src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/futurama/1/11/Fry.jpg?width=640"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div
+          class="card-header blue lighten-3 z-depth-1"
+          role="tab"
+          id="heading97"
+        >
+          <h5 class="text-uppercase mb-0 py-1">
+            <a
+              class="collapsed font-weight-bold white-text"
+              data-toggle="collapse"
+              href="#collapse97"
+              aria-expanded="false"
+              aria-controls="collapse97"
+            >
+              Turanga Leela
+            </a>
+          </h5>
+        </div>
+        <div
+          id="collapse97"
+          class="collapse"
+          role="tabpanel"
+          aria-labelledby="heading97"
+          data-parent="#accordionEx23"
+        >
+          <div class="card-body">
+            <div class="row my-4">
+              <div class="col-md-8">
+                <h2 class="font-weight-bold mb-3 black-text">Turanga Leela</h2>
+                <p class="">
+                  Turanga Leela is a fictional character from the animated
+                  television series Futurama. Leela is spaceship captain, pilot,
+                  and head of all aviation services on board the Planet Express
+                  Ship. Throughout the series, she has an on-again, off-again
+                  relationship with Philip J. Fry, the central character in the
+                  series. The character, voiced by Katey Sagal, is named after
+                  the Turangalîla-Symphonie by Olivier Messiaen. She is one of
+                  the few characters in the cast to routinely display competence
+                  and the ability to command, and routinely saves the rest of
+                  the cast from disaster. However, she suffers extreme
+                  self-doubt because she has only one eye and grew up as a
+                  bullied orphan. She first believes herself an alien, but later
+                  finds out she is the least-mutated sewer mutant in the history
+                  of 31st-century Earth. Her family (particularly her parents'
+                  accent and "outcast" status) parodies aspects of pollution and
+                  undesirability associated with industrial New Jersey when
+                  compared with New York City.
+                </p>
+                <p class="mb-0"></p>
+              </div>
+              <div class="col-md-4 mt-3 pt-2">
+                <div class="view z-depth-1">
+                  <img
+                    src="https://oneofus.net/wp-content/uploads/2014/04/Turanga-Leela.jpg?width=640"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div
+          class="card-header blue lighten-3 z-depth-1"
+          role="tab"
+          id="heading98"
+        >
+          <h5 class="text-uppercase mb-0 py-1">
+            <a
+              class="collapsed font-weight-bold white-text"
+              data-toggle="collapse"
+              href="#collapse98"
+              aria-expanded="false"
+              aria-controls="collapse98"
+            >
+              Bender Bending Rodríguez
+            </a>
+          </h5>
+        </div>
+        <div
+          id="collapse98"
+          class="collapse"
+          role="tabpanel"
+          aria-labelledby="heading98"
+          data-parent="#accordionEx23"
+        >
+          <div class="card-body">
+            <div class="row my-4">
+              <div class="col-md-8">
+                <h2 class="font-weight-bold mb-3 black-text">
+                  Bender Bending Rodríguez
+                </h2>
+                <p class="">
+                  ender Bending Rodríguez (designated in-universe as Bending
+                  Unit 22, unit number 1,729, serial number 2716057[1]) is one
+                  of the main characters in the animated television series
+                  Futurama. He was conceived by the series' creators Matt
+                  Groening and David X. Cohen, and is voiced by John DiMaggio.
+                  He fulfills a comic, antihero-type role in Futurama and is
+                  described by fellow character Leela as an "alcoholic,
+                  whore-mongering, chain-smoking gambler".[2] According to the
+                  character's backstory, Bender was purpose built in Tijuana,
+                  Mexico (the other characters refer to his "swarthy Latin
+                  charm") a reference to bending in Mexican maquiladoras.
+                  Viewers are informed, through his own testimony, of Bender's
+                  prejudice against non-robots. For example, one of his
+                  signature expressions is "kill all humans". Exceptions who are
+                  not subject to Bender's prejudicial attitude are those
+                  individuals on his "Do Not Kill" list, which seems to comprise
+                  only his best friend Philip J. Fry and his colleague Hermes
+                  Conrad (added after the episode "Lethal Inspection").[3]
+                  However, Bender is also occasionally portrayed as possessing a
+                  sympathetic side, suggesting that he is not as belligerent as
+                  he claims, a view often echoed by his friends.
+                </p>
+                <p class="mb-0"></p>
+              </div>
+              <div class="col-md-4 mt-3 pt-2">
+                <div class="view z-depth-1">
+                  <img
+                    src="https://img1.looper.com/img/gallery/the-untold-truth-of-futurama/how-bender-found-his-voice-1500062452.jpg?width=640"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Accordion wrapper-->
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
