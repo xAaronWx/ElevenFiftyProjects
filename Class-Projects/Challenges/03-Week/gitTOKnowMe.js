@@ -62,3 +62,5 @@ for (student of group1) {
   allMoviesWatched.push(student.recentMovieWatched);
 }
 console.log(allMoviesWatched);
+
+// this change needs to be checked
