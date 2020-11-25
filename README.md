@@ -49,6 +49,7 @@ This folder has various mini challenges and tasks for EFA
 ### `03-Week`
 
 - fizzbuzz_2_0
+- gitToKnowMe
 
 ## `(Music-Blog)`
 

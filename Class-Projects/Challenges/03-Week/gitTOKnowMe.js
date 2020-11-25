@@ -1,8 +1,8 @@
 // GIT to know me
 // After you create the array of objects, loop through the array to grab the mostRecentMovieWatched for each person object and PUSH those values to a GLOBAL moviesWatched variable which should be an array.
 
-let group1 = {
-  Aj: {
+let group1 = [
+  {
     name: "Aj White",
     age: 38,
     graduatedHSYear: 1999,
@@ -12,7 +12,7 @@ let group1 = {
     carsOwned: [{ make: "Jeep", model: "Wrangler" }],
     favoritePotato: "Sweet Potato",
   },
-  Angie: {
+  {
     name: "Angie Cunningham",
     age: 33,
     graduatedHSYear: 2205,
@@ -22,7 +22,7 @@ let group1 = {
     carsOwned: [{ make: "Ford", model: "Crown Victoria" }],
     favoritePotato: "All of them",
   },
-  Amy: {
+  {
     name: "Amy Melangton",
     age: 41,
     graduatedHSYear: 1997,
@@ -32,7 +32,7 @@ let group1 = {
     carsOwned: [{ make: "Kia", model: "Sedona" }],
     favoritePotato: "Sweet Potato",
   },
-  Ryan: {
+  {
     name: "Ryan Eckerle",
     age: 39,
     graduationHSYear: 2000,
@@ -42,38 +42,23 @@ let group1 = {
     carsOwned: [],
     favoritePotato: "Baked",
   },
-  Doug: {
+  {
     name: "Doug",
     age: 43,
     graduatedHSYear: 1995,
     pets: true,
     petNames: "Jama",
-    recentMovieWatched: "Coke",
+    recentMovieWatched: "Die Hard",
     carsOwned: [{ make: "Dodge", model: "Ram" }],
     favoritePotato: "fried",
   },
-};
+];
+
 // console.log(group1);
-console.log(
-  group1.Aj.recentMovieWatched,
-  group1.Amy.recentMovieWatched,
-  group1.Doug.recentMovieWatched,
-  group1.Ryan.recentMovieWatched,
-  group1.Angie.recentMovieWatched
-);
 
-// Create new array and push recentMovieWatched to the array
-let moviesWatched = [];
+let allMoviesWatched = [];
 
-console.log(
-  moviesWatched.push(
-    group1.Aj.recentMovieWatched,
-    group1.Amy.recentMovieWatched,
-    group1.Doug.recentMovieWatched,
-    group1.Ryan.recentMovieWatched,
-    group1.Angie.recentMovieWatched
-  )
-);
-
-// End Result
-console.log(moviesWatched);
+for (student of group1) {
+  allMoviesWatched.push(student.recentMovieWatched);
+}
+console.log(allMoviesWatched);
