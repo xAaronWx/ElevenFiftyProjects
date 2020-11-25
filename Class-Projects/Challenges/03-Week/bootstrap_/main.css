@@ -1,0 +1,12 @@
+h1 {
+  padding-top: 2em;
+}
+
+.challenge1 {
+  padding: 20px;
+}
+#customBtn {
+  width: 50%;
+  font-size: 25px;
+  font-weight: 400;
+}
