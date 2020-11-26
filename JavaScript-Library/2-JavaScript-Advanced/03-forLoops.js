@@ -1,4 +1,3 @@
-console.clear();
 // Loops offer a quick and easy way to do something repeatedly
 // There are many different kind of loops but they all do the same thing:
 // for statement

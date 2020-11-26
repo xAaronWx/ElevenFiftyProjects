@@ -43,26 +43,26 @@ if (value === "string") {
   console.log("What are you?");
 }
 
-// if ((object.age = Number)) {
-//   console.log("number");
-// } else {
-//   console.log("Nope");
-// }
+if ((object.age = Number)) {
+  console.log("number");
+} else {
+  console.log("Nope");
+}
 
-// if ((object.active = Boolean)) {
-//   console.log("boolean");
-// } else {
-//   console.log("Nope");
-// }
+if ((object.active = Boolean)) {
+  console.log("boolean");
+} else {
+  console.log("Nope");
+}
 
-// if ((object.details = Object)) {
-//   console.log("object");
-// } else {
-//   console.log("Nope");
-// }
+if ((object.details = Object)) {
+  console.log("object");
+} else {
+  console.log("Nope");
+}
 
-// if (object.gender != Number) {
-//   console.log("What are you?");
-// } else {
-//   console.log("Nope");
-// }
+if (object.gender != Number) {
+  console.log("What are you?");
+} else {
+  console.log("Nope");
+}
