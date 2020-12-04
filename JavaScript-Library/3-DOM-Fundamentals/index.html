@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Example Input Code -->
+    <label for="nameInput">Enter Your Name:</label>
+    <input type="text" id="nameInput" placeholder="John Smith" />
+
+    <p>Welcome!</p>
+    <p>No name has been entered</p>
+
+    <!-- Example Code -->
+    <button id="clickThisButton">I want to be clicked</button>
+
+    <p id="testParagraph">sample text</p>
+    <p class="sampleClass">This paragraph has a class of 'sampleClass'</p>
+
+    <!-- JS Code -->
+    <script type="text/javascript">
+      /* All of our JavaScript code will go here */
+
+      document
+        .getElementById("nameInput")
+        .addEventListener("keyup", (event) => {
+          if (event.target.value === "") {
+            document.getElementsByTagName(
+              "p"
+            )[1].innerText = `No name has been entered`;
+          } else {
+            document.getElementsByTagName(
+              "p"
+            )[1].innerText = `Everyone please welcome ${event.target.value} to the stage.`;
+          }
+        });
+
+      // This is an onClick script that adds an h2 element to the DOM
+      document
+        .getElementById("clickThisButton")
+        .addEventListener("click", () => {
+          document.querySelectorAll("p.sampleClass")[0].innerHTML =
+            "<h2>You clicked me!!</h2>";
+          console.log("I was clicked!");
+        });
+      document
+        .getElementById("clickThisButton")
+        .addEventListener("click", (details) => {
+          details.target.style.backgroundColor = "red";
+        });
+      document.getElementById("testParagraph").style.color = "blue";
+      // console.log(document.querySelectorAll("p.sampleClass"));
+      // document.querySelectorAll("p.sampleClass")[0].innerHTML =  // This replaces an element with a new one
+      //   "<h2>I am a whole new element!</h2>";
+    </script>
+  </body>
+</html>
+
+<!-- Two common ways to target specific elements in a DOM-->
+<!-- document.getElementById("idHere")
+document.querySelectorAll("p.classNameHere") -->
+
+<!-- Event listener example -->
+<!-- document.getElementById('clickThisButton').addEventListener('click', /* function goes here */); -->
