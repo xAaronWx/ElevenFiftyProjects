@@ -28,9 +28,7 @@ let pageNumber = 0;
 // let displayNav = false;
 
 // Event listeners to control the functionality
-
-// Event listeners to control the functionality
-searchForm.addEventListener("submit", submitSearch);
+searchForm.addEventListener("submit", submitSearch); // Waiting for the submit button to be pressed and then will submitSearch
 nextBtn.addEventListener("click", nextPage);
 previousBtn.addEventListener("click", previousPage);
 
@@ -39,10 +37,11 @@ function submitSearch(e) {
   fetchResults(e);
 }
 
+// This is an event handling function e that allows you to interact with the object that get requested
 function fetchResults(e) {
   // Use preventDefault() to stop the form submitting
   e.preventDefault();
-
+  console.log(e);
   // Assemble the full URL
   url =
     baseURL +
@@ -54,6 +53,7 @@ function fetchResults(e) {
     searchTerm.value +
     '&fq=document_type:("article")';
 
+  // No search date will return ALL results
   if (startDate.value !== "") {
     url += "&begin_date=" + startDate.value;
   }
@@ -64,17 +64,21 @@ function fetchResults(e) {
 
   // Use fetch() to make the request to the API
   fetch(url)
+    // Pulls the result from the API
     .then(function (result) {
       return result.json();
     })
+    // It pulls down the json object from the return from the previous .then 1 step further in making it usable info
     .then(function (json) {
-      displayResults(json);
+      displayResults(json); // calls a function with parameter
     });
+  console.log("This is a test"); // Not needed but can be used to test if things work
 }
 
+// creating the function using the previous call
 function displayResults(json) {
+  // While loop will clear out any articles before a new article search is created
   while (section.firstChild) {
-    // While loop will clear out any articles before a new article search is created
     section.removeChild(section.firstChild);
   }
 
@@ -101,6 +105,7 @@ function displayResults(json) {
       const para2 = document.createElement("p");
       const clearfix = document.createElement("div");
 
+      // This finds the most current article
       const current = articles[i];
       console.log(current);
 
@@ -109,6 +114,7 @@ function displayResults(json) {
       para1.textContent = current.snippet;
       // This creates and formats the 'Keywords' from the API articles
       para2.textContent = "Keywords: ";
+      // This function pulls all of the keywords together
       for (let j = 0; j < current.keywords.length; j++) {
         const span = document.createElement("span");
         span.textContent = current.keywords[j].value + " ";
