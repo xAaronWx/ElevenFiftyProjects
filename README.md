@@ -48,8 +48,19 @@ This folder has various mini challenges and tasks for EFA
 
 ### `03-Week`
 
+#### `bootstrap_Challenge`
+
 - fizzbuzz_2_0
 - gitToKnowMe
+- repls
+
+### `04-Week`
+
+#### `2-1-Repl-API`
+
+#### chuckNorrisAPI
+
+- repl
 
 ## `(Music-Blog)`
 
