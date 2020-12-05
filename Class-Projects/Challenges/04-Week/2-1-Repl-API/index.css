@@ -1,0 +1,14 @@
+#img1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25% 10%;
+  border: solid;
+}
+#img2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10% 25%;
+  border: solid;
+}

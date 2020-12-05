@@ -1,4 +1,4 @@
-// Repl 2-1 API Fetch
+// Repl 2.1 API Fetch
 // Use the provided HTML, CSS, and JS files to fetch images of two separate characters from the Rick and Morty API. You will not need to edit/change anything in the HTML file, everything you need is already there.
 
 // Your fetch call to the specified endpoint is already defined in the index.js file. Finish coding the necessary promise resolvers for your fetch to access character information from the API.
@@ -14,5 +14,28 @@
 //                   3. Each image must be centered
 
 // Your console.log should look like the screenshot below:
+console.log("Working");
+
+let mainDiv = document.querySelector("body");
+let imageTop = document.createElement("img");
+imageTop.setAttribute("id", "img1");
+let imageBottom = document.createElement("img");
+imageBottom.setAttribute("id", "img2");
 
 let url = "https://rickandmortyapi.com/api/character/";
+
+fetch(url).then((res) =>
+  res.json().then((json) => {
+    console.log(json.results[2].image);
+    image1 = json.results[2].image;
+    image2 = json.results[4].image;
+    displayImg(image1, image2);
+  })
+);
+
+function displayImg(image1, image2) {
+  imageTop.src = image1;
+  imageBottom.src = image2;
+  mainDiv.appendChild(imageTop);
+  mainDiv.appendChild(imageBottom);
+}

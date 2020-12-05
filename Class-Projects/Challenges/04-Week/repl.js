@@ -7,6 +7,11 @@
 
 // Your console.log should look like the screenshot below:
 
-fetch("https://swapi.dev/api/people/")
-  .then((res) => res.json())
-  .then((res) => console.log(json));
+async function slowResult() {
+  await fetch("https://swapi.dev/api/people/1/")
+    .then((res) => res.json())
+    .then((json) => console.log(json));
+  console.log("This should print last");
+}
+
+slowResult();
