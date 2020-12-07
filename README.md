@@ -48,7 +48,7 @@ This folder has various mini challenges and tasks for EFA
 
 ### `03-Week`
 
-#### `bootstrap_Challenge`
+#### bootstrap_Challenge
 
 - fizzbuzz_2_0
 - gitToKnowMe
@@ -56,7 +56,7 @@ This folder has various mini challenges and tasks for EFA
 
 ### `04-Week`
 
-#### `2-1-Repl-API`
+#### 2-1-Repl-API
 
 #### chuckNorrisAPI
 
@@ -157,3 +157,25 @@ This folder has various mini challenges and tasks for EFA
 - 10-arrowFunctions
 - 11-arrays
 - 12-objects
+
+## `3-DOM-Fundamentals`
+
+### 01-introToDom
+
+## `4-APIs`
+
+### 0-Apps
+
+- 01-New-York-Times
+
+- 02-
+
+<hr>
+
+### 1-Intro-to-APIs
+
+### 3-StarWars
+
+### 4-Unsplash
+
+- class-FetchDog-API
