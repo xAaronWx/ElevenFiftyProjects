@@ -16,11 +16,11 @@
 
 // slowResult();
 
-async function slowResult() {
-  let response = await fetch("https://swapi.dev/api/people/1/");
-  let char = await res.json();
-
-  console.log("This should print last");
+async function f() {
+  let url = "https://swapi.dev/api/people/1/";
+  let data = await (await fetch(url)).json();
+  console.log(data);
 }
+console.log("This should print last");
 
 slowResult();
