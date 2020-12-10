@@ -23,4 +23,4 @@ async function f() {
 }
 console.log("This should print last");
 
-slowResult();
+f();

@@ -1,5 +1,4 @@
-// Instructions from your teacher:
-// Create a guessing game where a user, when prompted, can input a number between 1 and 10. The user has up the three (3) opportunities to guess the correct number. Upon evaluation of the user's input, the computer can nudge the user to guess higher or lower.
+// Create a guessing game where a user, when prompted, can input a number between 1 and 10. The user has up to three (3) opportunities to guess the correct number. Upon evaluation of the user's input, the computer can nudge the user to guess higher or lower.
 
 // What is needed for a guessing game?
 // A range for our user to guess between. This should be 1-10.
@@ -24,3 +23,5 @@
 // and Math.random()
 
 // *** You will not need to use the provided HTML or CSS file - just JS!
+
+prompt("Enter in your guess");
