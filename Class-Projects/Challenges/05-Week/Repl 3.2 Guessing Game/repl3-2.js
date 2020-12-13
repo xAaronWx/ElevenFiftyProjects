@@ -23,5 +23,60 @@
 // and Math.random()
 
 // *** You will not need to use the provided HTML or CSS file - just JS!
+// alert(
+//   "Do you want to play a game? You have three chances to guess what number I have chosen. Press OK to continue and good luck"
+// );
 
-prompt("Enter in your guess");
+// var ask = prompt("Choose a number between 1 - 10");
+// // converts input into a number value
+// var guess = Number(ask);
+// console.log(guess);
+// // random value generated
+// var RandomNum = Math.floor(Math.random() * 10 + 1);
+// console.log(RandomNum);
+
+// var guesses = 1;
+
+// // the if else statement for getting the correct number
+// if (guess == RandomNum) {
+//   alert("Congratulations!!! You have bested me");
+// } else if (guess > RandomNum) {
+//   /* if guessed number is greater than actual number*/
+//   guesses++;
+//   alert("Too high, try a smaller number");
+// } else {
+//   // if guessed number is smaller than actual number
+//   guesses++;
+//   alert("Too low, try a larger number");
+// }
+
+// Try this method
+function UserGuess() {
+  var randomNum = Math.floor(Math.random() * 10) + 1;
+  console.log(randomNum);
+  var guess;
+  var lastGuess = "";
+  alert(
+    "Greetings and welcome. I would like to play a game. I have chosen a random number between 1 and 10. You have three chances to guess the number I have chosen. Good luck."
+  );
+  for (var i = 0; i < 3; i++) {
+    do {
+      guess = prompt(lastGuess + "Guess a number between 1 and 10");
+      if (isNaN(guess)) alert("You must choose a number");
+    } while (isNaN(guess));
+    if (guess == randomNum) {
+      alert(
+        "Congratulations, you are very fortunate. " +
+          guess +
+          " was the right number!"
+      );
+      break;
+    } else {
+      if (guess > randomNum) lastGuess = guess + " was too high. ";
+      if (guess < randomNum) lastGuess = guess + " was too low ";
+    }
+  }
+  if (i > 2)
+    alert("What a shame. You have lost. The number I chose was " + randomNum);
+}
+UserGuess();
