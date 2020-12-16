@@ -11,7 +11,7 @@
 //   await fetch("https://swapi.dev/api/people/1/")
 //     .then((res) => res.json())
 //     .then((json) => console.log(json));
-//   console.log("This should print last");
+//   .then(console.log("This should print last"));
 // }
 
 // slowResult();
@@ -27,8 +27,10 @@
 
 const getPerson = async () => {
   let response = await fetch("https://swapi.dev/api/people/1/");
-  let data = await result.json();
-  console.log(data);
-  return "print last return";
+  let json = await response.json();
+  console.log(json);
+  return "This should print last";
 };
-getPerson().then(console.log);
+getPerson()
+  .then(console.log)
+  .catch((err) => console.log(err));
