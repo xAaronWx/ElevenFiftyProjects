@@ -1,0 +1,182 @@
+.creature {
+  position: absolute;
+  top: 100px;
+  left: 400px;
+}
+
+.hair {
+  position: absolute;
+  top: -45px;
+  left: 110px;
+  background-color: rgb(233, 153, 144);
+  width: 85px;
+  height: 55px;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 37%,
+    71% 70%,
+    62% 100%,
+    34% 100%,
+    24% 70%,
+    0 36%
+  );
+}
+
+.body {
+  background-color: rgb(255, 179, 170);
+  border-radius: 100%;
+  width: 300px;
+  height: 350px;
+}
+
+.leftBrow {
+  position: absolute;
+  background-color: rgb(233, 153, 144);
+  z-index: 1;
+  bottom: 25px;
+  right: -5px;
+  width: 125px;
+  height: 100px;
+  clip-path: polygon(81% 61%, 94% 77%, 100% 100%, 0 100%, 12% 49%, 45% 50%);
+}
+
+.leftEye {
+  position: absolute;
+  top: 65px;
+  left: 80px;
+  background-color: whitesmoke;
+  border-radius: 100%;
+  width: 45px;
+  height: 45px;
+}
+
+.leftIris {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  background-color: blue;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+}
+
+.leftPupil {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background-color: black;
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+}
+
+.rightBrow {
+  transform: scaleX(-1);
+  position: absolute;
+  background-color: rgb(233, 153, 144);
+  z-index: 1;
+  bottom: 25px;
+  right: -75px;
+  width: 125px;
+  height: 100px;
+  clip-path: polygon(81% 61%, 94% 77%, 100% 100%, 0 100%, 12% 49%, 45% 50%);
+}
+
+.rightEye {
+  position: absolute;
+  top: 65px;
+  left: 175px;
+  background-color: whitesmoke;
+  border-radius: 100%;
+  width: 45px;
+  height: 45px;
+}
+
+.rightIris {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  background-color: blue;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+}
+
+.rightPupil {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background-color: black;
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+}
+
+.mouth {
+  position: absolute;
+  top: 185px;
+  left: 90px;
+  background-color: black;
+  width: 125px;
+  height: 2px;
+}
+
+.toothOne {
+  position: absolute;
+  top: -35px;
+  border-radius: 50% 50% 0% 0%;
+  background-color: white;
+  width: 30px;
+  height: 35px;
+}
+
+.toothTwo {
+  position: absolute;
+  top: -35px;
+  left: 32px;
+  border-radius: 50% 50% 0% 0%;
+  background-color: white;
+  width: 30px;
+  height: 35px;
+}
+
+.toothThree {
+  position: absolute;
+  top: -35px;
+  left: 63px;
+  border-radius: 50% 50% 0% 0%;
+  background-color: white;
+  width: 30px;
+  height: 35px;
+}
+
+.toothFour {
+  position: absolute;
+  top: -35px;
+  left: 95px;
+  border-radius: 50% 50% 0% 0%;
+  background-color: white;
+  width: 30px;
+  height: 35px;
+}
+
+.leftFoot {
+  position: absolute;
+  top: 320px;
+  left: 70px;
+  background-color: rgb(255, 179, 170);
+  border-radius: 100% 100% 0% 0%;
+  width: 70px;
+  height: 35px;
+}
+
+.rightFoot {
+  position: absolute;
+  top: 320px;
+  left: 165px;
+  background-color: rgb(255, 179, 170);
+  border-radius: 100% 100% 0% 0%;
+  width: 70px;
+  height: 35px;
+}
