@@ -1,5 +1,7 @@
 # Introduction
 
+<img align="right" src="HTMLCSSPreWork/3-assets/Typing.gif" width=250>
+
 This repo is designated for the use of tutorial and work projects related to Eleven Fifty Academy (EFA).
 
 <hr>
